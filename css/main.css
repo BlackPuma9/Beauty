@@ -148,6 +148,7 @@ div.top-lower-footer a li {
 
 .wrapper-car {
   font-size: 0px;
+  margin-bottom: 100px;
 }
 
 .wrapper-car-item {
@@ -185,11 +186,73 @@ div.top-lower-footer a li {
   transition: 1s;
   color: #ffffff;
   cursor: pointer;
-  /*border: none;*/
   border: 1px solid #f13c6e;
 }
 .wrapper-car-button:hover {
   border: 1px solid #f13c6e;
   background-color: #ffffff;
   color: #f13c6e;
+}
+
+.bonus-card-container {
+  font-size: 0;
+}
+
+.bonus-card {
+  background-color: #f13c6e;
+  color: #ffffff;
+  width: 540px;
+  height: 212px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.bonus-card:first-child {
+  margin-right: 30px;
+}
+
+.bonus-card-wrapper {
+  padding-top: 35px;
+  padding-left: 40px;
+}
+
+.bonus-card img {
+  background-color: #f13c6e;
+  padding-top: 36px;
+  padding-right: 45px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 25px;
+}
+
+.bonus-card-wrapper p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 225px;
+  height: 35px;
+  border-radius: 30px;
+  border: 0;
+  position: relative;
+}
+
+input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #c4c4c4;
+  position: absolute;
+  top: 9px;
+  left: 25px;
 }
