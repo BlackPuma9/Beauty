@@ -34,17 +34,74 @@ img {
   text-align: center;
 }
 
-div.top-footer li {
+div.top-footer a li {
   display: inline-block;
   margin: 17px 30px 16px 0px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  color: #333333;
 }
 
 ul li:last-child {
   margin-right: 0;
+}
+
+.logo-container {
+  padding: 0px 405px;
+}
+
+.logo-img {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.phone-btn-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.phone {
+  margin-right: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 3%;
+}
+
+.logo-button {
+  background-color: #ffffff;
+  border: 2px solid #f13c6e;
+  border-radius: 40px;
+  width: 170px;
+  height: 40px;
+  color: #000000;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.logo-button:hover {
+  background-color: #f13c6e;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.top-lower-footer {
+  margin: 0px auto;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+div.top-lower-footer a li {
+  display: inline-block;
+  margin: 30px 40px 30px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
 }
 
 .banner {
