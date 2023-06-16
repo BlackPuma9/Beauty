@@ -12,6 +12,11 @@
 .footer-link-item {
   display: inline-block;
   font-size: 12px;
+  box-sizing: border-box;
+}
+
+.footer-link-item:not(:last-child) {
+  margin-right: 27px;
 }
 
 .footer-link-title {
