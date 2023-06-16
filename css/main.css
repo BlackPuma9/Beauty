@@ -49,7 +49,9 @@ ul li:last-child {
 }
 
 .logo-container {
-  padding: 0px 405px;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .logo-img {
@@ -167,8 +169,13 @@ div.top-lower-footer a li {
 
 .wrapper-car-text {
   margin: 20px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 20px;
-  font-weight: 500;
+  text-align: center;
+
+  color: #333333;
 }
 .wrapper-car-price {
   font-size: 1.313rem;
@@ -232,8 +239,10 @@ div.top-lower-footer a li {
 h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   margin-bottom: 25px;
 }
 
@@ -267,18 +276,19 @@ input::placeholder {
 .impuls-container {
   font-size: 0;
   box-sizing: border-box;
+  margin-bottom: 80px;
 }
 
 .impuls-container img {
   background-color: #ffffff;
   box-sizing: border-box;
   display: inline-block;
-  /* border: 1px solid #efefef; */
 }
 
 .impuls-first-col {
   padding: 35px 68px 35px 60px;
   border-right: 1px solid #efefef;
+  border-top: 1px solid #efefef;
 }
 
 .impuls-second-col {
@@ -292,5 +302,9 @@ input::placeholder {
 }
 
 .impuls-forth-col {
-  padding: 34px 63px 35px 64px;
+  padding: 34px 63px 35px 65px;
+}
+
+.wrapper-car.bottom {
+  margin-bottom: 81px;
 }
